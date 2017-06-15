@@ -2,6 +2,7 @@
 
 	var Carousel = function(poster){
 			var self = this;
+			
 			//保存单个旋转木马对象
 			this.poster                  = poster;
 			this.posterItemMain = poster.find("ul.poster-list");
@@ -15,6 +16,7 @@
 			this.posterFirstItem  = this.posterItems.first();
 			this.posterLastItem  = this.posterItems.last();
 			this.rotateFlag   = true;
+			
 			//默认配置参数
 			this.setting = {
 									"width":1000,			//幻灯片的宽度
@@ -26,7 +28,7 @@
 									"autoPlay":false,
 									"delay":5000,
 									"verticalAlign":"middle" //top bottom
-									};
+							};
 			$.extend(this.setting,this.getSetting());
 			
 			//设置配置参数值
