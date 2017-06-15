@@ -168,7 +168,8 @@
 										top:self.setVerticalAlign(rh)
 										});
 				});
-				//设置左边的位置关系
+				
+				//设置左边的位置关系 SET LEFT POSITION
 				var lw = rightSlice.last().width(),
 					   lh  =rightSlice.last().height(),
 					   oloop = Math.floor(this.posterItems.size()/2);
@@ -186,7 +187,8 @@
 					oloop--;
 				});
 		},
-		//设置垂直排列对齐
+		
+		//设置垂直排列对齐 SET THE VERTICAL ALIGNMENT
 		setVerticalAlign:function(height){
 			var verticalType  = this.setting.verticalAlign,
 					top = 0;
