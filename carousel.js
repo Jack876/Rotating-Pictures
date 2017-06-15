@@ -3,7 +3,7 @@
 	var Carousel = function(poster){
 			var self = this;
 			
-			//保存单个旋转木马对象
+			//保存单个旋转木马对象 SAVE ONE OBJECT OF ROTATING PICS
 			this.poster                  = poster;
 			this.posterItemMain = poster.find("ul.poster-list");
 			this.nextBtn               = poster.find("div.poster-next-btn");
@@ -17,7 +17,7 @@
 			this.posterLastItem  = this.posterItems.last();
 			this.rotateFlag   = true;
 			
-			//默认配置参数
+			//默认配置参数 RELATED FACTORS 
 			this.setting = {
 									"width":1000,			//幻灯片的宽度
 									"height":270,				//幻灯片的高度
