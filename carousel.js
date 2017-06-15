@@ -72,7 +72,7 @@
 
 		},
 
-		//旋转
+		//旋转 ROTATION
 		carouseRotate:function(dir){
 			var _this_  = this;
 			var zIndexArr = [];
