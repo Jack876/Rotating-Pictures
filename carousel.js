@@ -203,6 +203,7 @@
 			};
 			return top;
 		},
+		
 		//设置配置参数值去控制基本的宽度高度。。。
 		setSettingValue:function(){
 			this.poster.css({
@@ -213,6 +214,7 @@
 										width:this.setting.width,
 										height:this.setting.height
 									});
+			
 			//计算上下切换按钮的宽度
 			var w = (this.setting.width-this.setting.posterWidth)/2;
 			//设置切换按钮的宽高，层级关系
