@@ -42,7 +42,7 @@
 					self.carouseRotate("left");
 				};
 			});
-			//右旋转按钮
+			//右旋转按钮 THE RIGHT BUTTON OF ROTATION
 			this.prevBtn .click(function(){
 				if(self.rotateFlag){
 					self.rotateFlag = false;
