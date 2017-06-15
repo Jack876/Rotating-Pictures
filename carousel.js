@@ -135,6 +135,7 @@
 				});
 			};
 		},
+		
 		//设置剩余的帧的位置关系
 		setPosterPos:function(){
 				var   self = this;
@@ -151,7 +152,8 @@
 				
 				var firstLeft = (this.setting.width-this.setting.posterWidth)/2;
 				var fixOffsetLeft = firstLeft+rw;
-				//设置左边位置关系
+				
+				//设置左边位置关系 SET THE LEFT POSITION
 				rightSlice.each(function(i){
 					level--;
 					rw = rw *self.setting.scale;
