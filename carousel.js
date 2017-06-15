@@ -100,6 +100,7 @@
 													_this_.rotateFlag = true;
 												});
 				});
+				
 				//zIndex需要单独保存再设置，防止循环时候设置再取的时候值永远是最后一个的zindex
 				this.posterItems.each(function(i){
 					$(this).css("zIndex",zIndexArr[i]);
@@ -127,6 +128,7 @@
 												});
 	
 				});
+				
 				//zIndex需要单独保存再设置，防止循环时候设置再取的时候值永远是最后一个的zindex
 				this.posterItems.each(function(i){
 					$(this).css("zIndex",zIndexArr[i]);
