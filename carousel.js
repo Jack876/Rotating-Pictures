@@ -76,7 +76,8 @@
 		carouseRotate:function(dir){
 			var _this_  = this;
 			var zIndexArr = [];
-			//左旋转
+			
+			//左旋转 LEFT ROTATION
 			if(dir === "left"){
 				this.posterItems .each(function(){
 					var self = $(this),
