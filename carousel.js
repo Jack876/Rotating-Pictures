@@ -42,6 +42,7 @@
 					self.carouseRotate("left");
 				};
 			});
+			
 			//右旋转按钮 THE RIGHT BUTTON OF ROTATION
 			this.prevBtn .click(function(){
 				if(self.rotateFlag){
@@ -49,7 +50,8 @@
 					self.carouseRotate("right");
 				};
 			});
-		//是否开启自动播放
+			
+		//是否开启自动播放 WHETHER OR NOT TO AUTOMATICALLY PLAY
 		if(this.setting.autoPlay){
 			this.autoPlay();
 			this.poster.hover(function(){
