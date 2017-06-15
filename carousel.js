@@ -31,10 +31,11 @@
 							};
 			$.extend(this.setting,this.getSetting());
 			
-			//设置配置参数值
+			//设置配置参数值 SET FACTORS
 			this.setSettingValue();
 			this.setPosterPos();
-			//左旋转按钮
+			
+			//左旋转按钮 THE LEFT BUTTON OF ROTATION
 			this.nextBtn .click(function(){
 				if(self.rotateFlag){
 					self.rotateFlag = false;
